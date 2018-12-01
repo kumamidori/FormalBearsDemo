@@ -1,20 +1,7 @@
 # Fob.FormalBearsDemo
 
-## Installation
+## License
 
-    composer install
-    composer setup
+These codes are licensed under CC0.
 
-## Usage
-
-### Run server
-
-    composer serve
-
-### QA
-
-    composer test     // run unit test
-    composer tests    // run test and quality checks
-    composer coverage // test coverage
-    composer cs-fix   // fix the coding standard
-
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png "CC0")](http://creativecommons.org/publicdomain/zero/1.0/deed.ja)

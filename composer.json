@@ -1,7 +1,7 @@
 {
     "name": "fob/formal-bears-demo",
     "type": "project",
-    "license": "proprietary",
+    "license": "CC0-1.0",
     "description": "",
     "require": {
         "php": ">=7.0.0",
