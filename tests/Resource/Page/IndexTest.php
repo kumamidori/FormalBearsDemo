@@ -7,20 +7,23 @@ use PHPUnit\Framework\TestCase;
 
 class IndexTest extends TestCase
 {
-    /**
-     * @var ResourceInterface
-     */
-    private $resource;
+    const URI = 'page://self/index';
 
-    protected function setUp()
+    const QUERY = ['name' => 'BEAR.Sunday'];
+
+    const EXPECT_GREETING = 'Hello BEAR.Sunday';
+
+    public function testOnGetCaseApp()
     {
-        $this->resource = (new AppInjector('Fob\FormalBearsDemo', 'app'))->getInstance(ResourceInterface::class);
+        $resource = $this->getResourceBy('app');
+        $ro = $resource->get(self::URI, self::QUERY);
+
+        $this->assertSame(200, $ro->code);
+        $this->assertSame(self::EXPECT_GREETING, $ro->body['greeting']);
     }
 
-    public function testOnGet()
+    private function getResourceBy(string $context)
     {
-        $ro = $this->resource->get('page://self/index', ['name' => 'BEAR.Sunday']);
-        $this->assertSame(200, $ro->code);
-        $this->assertSame('Hello BEAR.Sunday', $ro->body['greeting']);
+        return (new AppInjector('Fob\FormalBearsDemo', $context))->getInstance(ResourceInterface::class);
     }
 }

@@ -2,6 +2,8 @@
 namespace Fob\FormalBearsDemo\Module;
 
 use BEAR\Package\PackageModule;
+use Fob\FormalBearsDemo\Module\HttpClient\HttpClientModule;
+use Fob\FormalBearsDemo\Module\UserList\UserListModule;
 use FormalBears\Framework\Module\AbstractAppModule;
 
 class AppModule extends AbstractAppModule
@@ -12,6 +14,8 @@ class AppModule extends AbstractAppModule
     protected function configure()
     {
         $this->install(new PackageModule);
+        $this->install(new UserListModule($this->registry));
+        $this->install(new HttpClientModule);
     }
 
     /**

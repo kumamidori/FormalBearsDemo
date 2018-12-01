@@ -1,0 +1,4 @@
+user_list:
+  api_base_url: 'https://api.github.com'
+  names: ~
+
