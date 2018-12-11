@@ -13,3 +13,4 @@ phpunit.xml
 !var/tmp/di/.gitkeep
 /docs/api/
 .envrc
+composer.lock
