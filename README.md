@@ -4,7 +4,7 @@ FormalBears 設定言語機能のミニマムな使用例
 
 ## Requires
 
-PHP7.0以上
+PHP7.0.8以上
 
 ## ミニマムサンプル
 
