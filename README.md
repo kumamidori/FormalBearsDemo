@@ -20,24 +20,25 @@ PHP7.0.8以上
 
 ### 実行
 
-デフォルト `app` の設定（`app/user_list.yaml` のユーザー一覧）
+デフォルト `app` （[`app/user_list.yaml`](https://github.com/kumamidori/FormalBearsDemo/blob/master/etc/config/modules/app/user_list.yaml) のユーザー一覧）
 
 ```
 php ./bin/app.php  get 'app://self/userlist/users' 
 ```
 
-環境毎オーバーライドの設定（`{環境のコンテキスト}/user_list.yaml` がマージされたユーザー一覧）
+環境毎オーバーライドの設定（[`{環境のコンテキスト}/user_list.yaml`](https://github.com/kumamidori/FormalBearsDemo/blob/master/etc/config/modules/prod/user_list.yaml) がマージされたユーザー一覧）
 
-`dev` 
-
-```
-php ./bin/dev.php  get 'app://self/userlist/users' 
-```
 
 `prod` 
 
 ```
 php ./bin/prod.php  get 'app://self/userlist/users' 
+```
+
+`dev` 
+
+```
+php ./bin/dev.php  get 'app://self/userlist/users' 
 ```
 
 ## TODO
