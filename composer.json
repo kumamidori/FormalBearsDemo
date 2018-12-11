@@ -2,17 +2,11 @@
     "name": "fob/formal-bears-demo",
     "type": "project",
     "license": "CC0-1.0",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:bn_yamane/fobformalbears.git"
-        }
-    ],
     "require": {
-        "php": ">=7.0.0",
+        "php": ">=7.0.8",
         "bear/package": "^1.9",
         "josegonzalez/dotenv": "^3.2",
-        "fob/formalbears": "@dev",
+        "fob/formalbears": "^0.1.0",
         "guzzlehttp/guzzle": "^6.3"
     },
     "require-dev": {
