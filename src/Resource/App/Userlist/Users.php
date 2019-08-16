@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 namespace Fob\FormalBearsDemo\Resource\App\Userlist;
 
 use BEAR\Resource\Code;

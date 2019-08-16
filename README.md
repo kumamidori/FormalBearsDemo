@@ -43,7 +43,6 @@ php ./bin/dev.php  get 'app://self/userlist/users'
 
 ## TODO
 
-- マルチバインディング対応
 - 環境変数統合の実装サンプルの追加
 - CS
 - CI build
