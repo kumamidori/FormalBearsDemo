@@ -4,7 +4,7 @@ FormalBears 設定言語機能のミニマムな使用例
 
 ## Requires
 
-PHP7.0.8以上
+PHP7.1.3以上
 
 ## ミニマムサンプル
 
@@ -43,6 +43,7 @@ php ./bin/dev.php  get 'app://self/userlist/users'
 
 ## TODO
 
+- マルチバインディング対応
 - 環境変数統合の実装サンプルの追加
 - CS
 - CI build

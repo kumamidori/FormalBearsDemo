@@ -14,3 +14,4 @@ phpunit.xml
 /docs/api/
 .envrc
 composer.lock
+.phpunit.result.cache

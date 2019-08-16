@@ -3,15 +3,14 @@
     "type": "project",
     "license": "CC0-1.0",
     "require": {
-        "php": ">=7.0.8",
+        "php": ">=7.1.3",
         "bear/package": "^1.9",
-        "josegonzalez/dotenv": "^3.2",
-        "fob/formalbears": "^0.1.0",
+        "fob/formalbears": "^0.1.6",
         "guzzlehttp/guzzle": "^6.3"
     },
     "require-dev": {
-        "bear/qatools": "dev-master",
-        "roave/security-advisories": "dev-master"
+        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "^7.5"
     },
     "autoload": {
         "psr-4": {
@@ -24,14 +23,14 @@
         }
     },
     "scripts": {
-        "setup": [
+        "app-setup": [
             "php bin/setup.php"
         ],
-        "compile": "bear.compile 'Fob\\FormalBearsDemo' prod-app ./"
+        "app-compile": "bear.compile 'Fob\\FormalBearsDemo' prod-app ./"
     },
     "scripts-descriptions": {
-        "setup": "Setup the project",
-        "compile": "Compile autoload and DI scripts"
+        "app-setup": "Setup the project",
+        "app-compile": "Compile autoload and DI scripts"
     },
     "config": {
         "process-timeout": 0
