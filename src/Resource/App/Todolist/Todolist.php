@@ -35,7 +35,7 @@ class Todolist extends ResourceObject
 
     /**
      * 実行手順:
-     * $ php ./bin/app.php get 'app://self/index'
+     * $ php ./bin/app.php get 'app://self/todolist/todolist'
      *
      * @return ResourceObject
      */
