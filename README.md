@@ -1,5 +1,7 @@
 # Fob.FormalBearsDemo
 
+[![Build Status](https://travis-ci.org/kumamidori/FormalBearsDemo.svg?branch=master)](https://travis-ci.org/kumamidori/FormalBearsDemo)
+
 FormalBears 設定言語機能のミニマムな使用例
 
 ## Requires
