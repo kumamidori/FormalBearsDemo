@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
-namespace Fob\FormalBearsDemo\Module\TodoList;
+namespace FormalBearsDemo\Module\TodoList;
 
-use Fob\FormalBearsDemo\TodoList\Entity\CalendarTodo;
-use Fob\FormalBearsDemo\TodoList\Entity\NormalTodo;
-use Fob\FormalBearsDemo\TodoList\CalendarTodoFormatter;
-use Fob\FormalBearsDemo\TodoList\NormalTodoFormatter;
-use Fob\FormalBearsDemo\TodoList\Repository\TodoListQueryRepository;
-use Fob\FormalBearsDemo\TodoList\TodoFormatterInterface;
-use Fob\FormalBearsDemo\TodoList\TodoFormatterProvider;
+use FormalBearsDemo\TodoList\Entity\CalendarTodo;
+use FormalBearsDemo\TodoList\Entity\NormalTodo;
+use FormalBearsDemo\TodoList\CalendarTodoFormatter;
+use FormalBearsDemo\TodoList\NormalTodoFormatter;
+use FormalBearsDemo\TodoList\Repository\TodoListQueryRepository;
+use FormalBearsDemo\TodoList\TodoFormatterInterface;
+use FormalBearsDemo\TodoList\TodoFormatterProvider;
 use FormalBears\Foundation\Config\Module\AbstractConfigAwareModule;
 
 class TodoListModule extends AbstractConfigAwareModule

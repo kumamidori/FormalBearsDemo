@@ -1,5 +1,5 @@
 <?php
-namespace Fob\FormalBearsDemo\Resource\App\Userlist;
+namespace FormalBearsDemo\Resource\App\Userlist;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;

@@ -1,10 +1,10 @@
 <?php
-namespace Fob\FormalBearsDemo\Module;
+namespace FormalBearsDemo\Module;
 
 use BEAR\Package\PackageModule;
-use Fob\FormalBearsDemo\Module\HttpClient\HttpClientModule;
-use Fob\FormalBearsDemo\Module\TodoList\TodoListModule;
-use Fob\FormalBearsDemo\Module\UserList\UserListModule;
+use FormalBearsDemo\Module\HttpClient\HttpClientModule;
+use FormalBearsDemo\Module\TodoList\TodoListModule;
+use FormalBearsDemo\Module\UserList\UserListModule;
 use FormalBears\Framework\Module\AbstractAppModule;
 
 class AppModule extends AbstractAppModule
@@ -25,7 +25,7 @@ class AppModule extends AbstractAppModule
      */
     protected function getAppNamespace(): string
     {
-        return 'Fob\\FormalBearsDemo';
+        return 'FormalBearsDemo';
     }
 
     /**

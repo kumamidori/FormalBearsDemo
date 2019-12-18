@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Fob\FormalBearsDemo\TodoList\Entity;
+namespace FormalBearsDemo\TodoList\Entity;
 
 final class CalendarTodo implements TodoInterface
 {

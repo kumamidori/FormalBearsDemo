@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Fob\FormalBearsDemo\Module\UserList;
+namespace FormalBearsDemo\Module\UserList;
 
 use FormalBears\Foundation\Config\Definition\AbstractConfiguration;
 use Symfony\Component\Config\Definition\Builder\NodeBuilder;

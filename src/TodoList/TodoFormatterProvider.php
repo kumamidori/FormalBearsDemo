@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Fob\FormalBearsDemo\TodoList;
+namespace FormalBearsDemo\TodoList;
 
 use FormalBears\Foundation\Di\ExtensionPoint;
 use Ray\Di\Di\Named;
@@ -29,7 +29,7 @@ class TodoFormatterProvider implements ProviderInterface, SetContextInterface
      * @param InjectorInterface $injector
      * @param ExtensionPoint    $extensionPoint
      *
-     * @Named("extensionPoint=Fob\FormalBearsDemo\TodoList\TodoFormatterInterface")
+     * @Named("extensionPoint=FormalBearsDemo\TodoList\TodoFormatterInterface")
      */
     public function __construct(InjectorInterface $injector, ExtensionPoint $extensionPoint)
     {

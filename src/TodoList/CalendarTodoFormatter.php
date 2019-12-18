@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
-namespace Fob\FormalBearsDemo\TodoList;
+namespace FormalBearsDemo\TodoList;
 
-use Fob\FormalBearsDemo\TodoList\Entity\CalendarTodo;
-use Fob\FormalBearsDemo\TodoList\Entity\TodoInterface;
+use FormalBearsDemo\TodoList\Entity\CalendarTodo;
+use FormalBearsDemo\TodoList\Entity\TodoInterface;
 
 class CalendarTodoFormatter implements TodoFormatterInterface
 {

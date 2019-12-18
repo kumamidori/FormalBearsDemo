@@ -1,7 +1,7 @@
 <?php
-namespace Fob\FormalBearsDemo\TodoList;
+namespace FormalBearsDemo\TodoList;
 
-use Fob\FormalBearsDemo\TodoList\Entity\NormalTodo;
+use FormalBearsDemo\TodoList\Entity\NormalTodo;
 use PHPUnit\Framework\TestCase;
 
 class NormalTodoFormatterTest extends TestCase

@@ -1,5 +1,5 @@
 <?php
-namespace Fob\FormalBearsDemo\Module;
+namespace FormalBearsDemo\Module;
 
 use Ray\Di\AbstractModule;
 

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
-namespace Fob\FormalBearsDemo\TodoList\Repository;
+namespace FormalBearsDemo\TodoList\Repository;
 
-use Fob\FormalBearsDemo\TodoList\Entity\CalendarTodo;
-use Fob\FormalBearsDemo\TodoList\Entity\NormalTodo;
+use FormalBearsDemo\TodoList\Entity\CalendarTodo;
+use FormalBearsDemo\TodoList\Entity\NormalTodo;
 
 class TodoListQueryRepository
 {

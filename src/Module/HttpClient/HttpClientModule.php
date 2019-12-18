@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Fob\FormalBearsDemo\Module\HttpClient;
+namespace FormalBearsDemo\Module\HttpClient;
 
 use GuzzleHttp\Client;
 use Ray\Di\AbstractModule;

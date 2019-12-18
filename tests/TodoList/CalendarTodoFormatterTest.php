@@ -1,8 +1,7 @@
 <?php
-namespace Fob\FormalBearsDemo\TodoList;
+namespace FormalBearsDemo\TodoList;
 
-use Fob\FormalBearsDemo\TodoList\Entity\CalendarTodo;
-use Fob\FormalBearsDemo\TodoList\Entity\NormalTodo;
+use FormalBearsDemo\TodoList\Entity\CalendarTodo;
 use PHPUnit\Framework\TestCase;
 
 class CalendarTodoFormatterTest extends TestCase

@@ -1,11 +1,11 @@
 {
-    "name": "fob/formal-bears-demo",
+    "name": "formal-bears/formal-bears-demo",
     "type": "project",
     "license": "CC0-1.0",
     "require": {
-        "php": ">=7.1.3",
+        "php": ">=7.2.0",
         "bear/package": "^1.9",
-        "fob/formalbears": "^0.2",
+        "formal-bears/formal-bears": "^0.3",
         "guzzlehttp/guzzle": "^6.3"
     },
     "require-dev": {
@@ -14,19 +14,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Fob\\FormalBearsDemo\\": "src/"
+            "FormalBearsDemo\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fob\\FormalBearsDemo\\": "tests/"
+            "FormalBearsDemo\\": "tests/"
         }
     },
     "scripts": {
         "app-setup": [
             "php bin/setup.php"
         ],
-        "app-compile": "bear.compile 'Fob\\FormalBearsDemo' prod-app ./"
+        "app-compile": "bear.compile 'FormalBearsDemo' prod-app ./"
     },
     "scripts-descriptions": {
         "app-setup": "Setup the project",

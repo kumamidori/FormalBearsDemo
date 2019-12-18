@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Fob\FormalBearsDemo\Resource\App\Userlist;
+namespace FormalBearsDemo\Resource\App\Userlist;
 
 use BEAR\Resource\Code;
 use BEAR\Resource\ResourceObject;

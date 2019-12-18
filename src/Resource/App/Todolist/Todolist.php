@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
-namespace Fob\FormalBearsDemo\Resource\App\Todolist;
+namespace FormalBearsDemo\Resource\App\Todolist;
 
 use BEAR\Resource\ResourceObject;
-use Fob\FormalBearsDemo\TodoList\Entity\TodoInterface;
-use Fob\FormalBearsDemo\TodoList\Repository\TodoListQueryRepository;
-use Fob\FormalBearsDemo\TodoList\TodoFormatterInterface;
-use Fob\FormalBearsDemo\TodoList\TodoFormatterProvider;
+use FormalBearsDemo\TodoList\Entity\TodoInterface;
+use FormalBearsDemo\TodoList\Repository\TodoListQueryRepository;
+use FormalBearsDemo\TodoList\TodoFormatterInterface;
+use FormalBearsDemo\TodoList\TodoFormatterProvider;
 use Ray\Di\Di\Inject;
 
 class Todolist extends ResourceObject

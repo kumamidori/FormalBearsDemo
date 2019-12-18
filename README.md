@@ -1,4 +1,4 @@
-# Fob.FormalBearsDemo
+# FormalBearsDemo
 
 [![Build Status](https://travis-ci.org/kumamidori/FormalBearsDemo.svg?branch=master)](https://travis-ci.org/kumamidori/FormalBearsDemo)
 
